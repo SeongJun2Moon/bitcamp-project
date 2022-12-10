@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class MinoutputConfig(AppConfig):
+class MinOutputConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "myteach.minout_put"
+    name = "myteach.min_output"

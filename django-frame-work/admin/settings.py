@@ -31,6 +31,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "myteach.min_output.apps.MinOutputConfig",
+    "myteach.minimap_ward.apps.MinimapWardConfig",
+    #"myteach.kda_list.apps.KdaListConfig",
+    #"myteach.users.apps.UsersConfig",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
